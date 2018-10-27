@@ -6,6 +6,11 @@ let defaultStyle = {
   color: '#fff',
 }
 
+let inputStyle = {
+  'border-radius': '4px',
+  border: 'none',
+}
+
 class Aggregate extends Component {
   render() {
     return (
@@ -21,7 +26,7 @@ class Filter extends Component {
     return (
       <div style={defaultStyle}>
         <img/>
-        <input type="text"/>
+        <input style={inputStyle} type="text"/>
       </div>
     );
   }
