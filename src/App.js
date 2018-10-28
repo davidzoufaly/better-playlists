@@ -1,5 +1,10 @@
+//TODO: trololo
+// ! important as fuck
+// ? what is goin on here
+// default comments
+
+
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 let defaultStyle = {
