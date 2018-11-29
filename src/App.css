@@ -26,6 +26,18 @@ body {
   color: #61dafb;
 }
 
+.sign-button {
+  padding: 20px 30px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 40px;
+  border: none;
+  font-size: 2rem;
+  background-color: #57b560;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
